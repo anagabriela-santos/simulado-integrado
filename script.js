@@ -2,7 +2,7 @@ console.log("SCRIPT DO SIMULADO FOI CARREGADO");
 
 const formulario = document.getElementById("simuladoForm");
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://simulado-integrado.onrender.com";
 
 formulario.addEventListener("submit", async function (event) {
     event.preventDefault();
